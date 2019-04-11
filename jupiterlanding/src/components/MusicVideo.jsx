@@ -7,8 +7,7 @@ export default class MusicVideo extends Component {
         <iframe
           width="996"
           height="560"
-          src="https://www.youtube.com/embed/Ob41MD_Fqrs"
-          //  ?autoplay=1"
+          src="https://www.youtube.com/embed/Ob41MD_Fqrs?autoplay=1"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen

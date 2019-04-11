@@ -10,45 +10,48 @@ export default class Header extends Component {
 
   render() {
     return (
-      <div className="header">
-        <div class="dropdown">
-          <p onClick={this.clickDropdown} className="dropbtn">
-            <div className="dropbtn" />
-            <div className="dropbtn" />
-            <div className="dropbtn" />
-          </p>
-
-          {this.state.dropdownContent && (
-            <div className="dropdown-content">
-              <p class="pj">Home</p>
-              <p class="pj">News</p>
-              <p class="pj">Live</p>
-              <p class="pj">Videos</p>
+      <a name="home">
+        <div className="header">
+          <div class="dropdown" onClick={this.clickDropdown}>
+            <div className="dropbtn1">
+              <p className="dropbtn">
+                <div className="dropbtn" />
+                <div className="dropbtn" />
+                <div className="dropbtn" />
+              </p>
             </div>
-          )}
+            {this.state.dropdownContent && (
+              <div className="dropdown-content">
+                <p href="#home">Home</p>
+                <p href="#news">News</p>
+                <p href="#live">Live</p>
+                <p href="#social">Social</p>
+              </div>
+            )}
+          </div>
+          <h1 className="title">J//L</h1>
+          <div className="social">
+            <a
+              href="https://www.facebook.com/wearejupiterlanding/"
+              target="_blank"
+            >
+              <img className="fb" src={fb} />
+            </a>
+            <a
+              href="https://www.instagram.com/wearejupiterlanding/"
+              target="_blank"
+            >
+              <img className="insta" src={insta} />
+            </a>
+            <a
+              href="https://www.facebook.com/wearejupiterlanding/"
+              target="_blank"
+            >
+              <img className="yt" src={yt} />
+            </a>
+          </div>
         </div>
-        <h1 className="title">J//L</h1>
-        <div className="social">
-          <a
-            href="https://www.facebook.com/wearejupiterlanding/"
-            target="_blank"
-          >
-            <img className="fb" src={fb} />
-          </a>
-          <a
-            href="https://www.instagram.com/wearejupiterlanding/"
-            target="_blank"
-          >
-            <img className="insta" src={insta} />
-          </a>
-          <a
-            href="https://www.facebook.com/wearejupiterlanding/"
-            target="_blank"
-          >
-            <img className="yt" src={yt} />
-          </a>
-        </div>
-      </div>
+      </a>
     );
   }
 
