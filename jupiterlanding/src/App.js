@@ -6,12 +6,14 @@ import News from './components/News';
 import Live from './components/Live';
 import Instagram from './components/Instagram';
 import Footer from './components/Footer';
+import Logo from './components/Logo';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <img className="bg" />
+        <Logo />
         <div className="content">
           <Header />
           <MusicVideo />

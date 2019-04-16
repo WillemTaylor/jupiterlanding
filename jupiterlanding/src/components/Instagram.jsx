@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import insta2 from '../img/insta2.jpeg';
 
 export default class Instagram extends Component {
   render() {
@@ -15,14 +16,11 @@ export default class Instagram extends Component {
                 <img src="https://www.instagram.com/p/BsvgO01lKV5/" />
               </a>
             </div>
-            <div className="insta2">
-              <a
-                href="https://www.instagram.com/p/Bsy3ZuOl-8W/"
-                target="_blank"
-              >
-                <img src="https://www.instagram.com/p/Bsy3ZuOl-8W/" />
-              </a>
-            </div>
+            <a
+              className="insta2"
+              href="https://www.instagram.com/p/Bsy3ZuOl-8W/"
+              target="_blank"
+            />
             <div className="insta3">
               <a
                 href="https://www.instagram.com/p/BsgYWSPBNur/"
