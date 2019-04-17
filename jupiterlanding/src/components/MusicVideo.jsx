@@ -10,7 +10,7 @@ export default class MusicVideo extends Component {
             title="musicvideo"
             width="966"
             height="530"
-            src="https://www.youtube.com/embed/Ob41MD_Fqrs?autoplay=1"
+            src="https://www.youtube.com/embed/YEuxoYxbSsc?autoplay=1"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
