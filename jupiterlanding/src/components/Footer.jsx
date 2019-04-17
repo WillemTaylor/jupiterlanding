@@ -17,20 +17,23 @@ export default class Footer extends Component {
           <a
             href="https://www.facebook.com/wearejupiterlanding/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img className="fb" src={fb} />
+            <img className="fb" src={fb} alt="" />
           </a>
           <a
             href="https://www.instagram.com/wearejupiterlanding/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img className="insta" src={insta} />
+            <img className="insta" src={insta} alt="" />
           </a>
           <a
             href="https://www.facebook.com/wearejupiterlanding/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img className="yt" src={yt} />
+            <img className="yt" src={yt} alt="" />
           </a>
         </div>
         <h2>JUPITER LANDING</h2>
@@ -38,6 +41,7 @@ export default class Footer extends Component {
           className="portfolio"
           href="https://willemtaylor.github.io"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Willem Taylor
         </a>

@@ -12,13 +12,13 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div class="dropdown">
+        <div className="dropdown">
           <div className="dropbtn1" onClick={this.clickDropdown}>
-            <p className="dropbtn">
-              <div className="dropbtn" />
-              <div className="dropbtn" />
-              <div className="dropbtn" />
-            </p>
+            <div className="dropbtn">
+              <p className="dropbtn" />
+              <p className="dropbtn" />
+              <p className="dropbtn" />
+            </div>
           </div>
           {this.state.dropdownContent && (
             <div className="dropdown-content">
@@ -29,25 +29,28 @@ export default class Header extends Component {
             </div>
           )}
         </div>
-        <img className="title" src={logo} />
+        <img className="title" src={logo} alt="" />
         <div className="social">
           <a
             href="https://www.facebook.com/wearejupiterlanding/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img className="fb" src={fb} />
+            <img className="fb" src={fb} alt="" />
           </a>
           <a
             href="https://www.instagram.com/wearejupiterlanding/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img className="insta" src={insta} />
+            <img className="insta" src={insta} alt="" />
           </a>
           <a
             href="https://www.facebook.com/wearejupiterlanding/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <img className="yt" src={yt} />
+            <img className="yt" src={yt} alt="" />
           </a>
         </div>
       </div>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 
 export default class MusicVideo extends Component {
@@ -6,12 +7,13 @@ export default class MusicVideo extends Component {
       <a name="home">
         <div className="videoplayer">
           <iframe
+            title="musicvideo"
             width="966"
             height="530"
             src="https://www.youtube.com/embed/Ob41MD_Fqrs?autoplay=1"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           />
           <h1>STORMY WEATHER</h1>
         </div>

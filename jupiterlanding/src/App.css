@@ -3,35 +3,11 @@
   color: #cbb79c;
 }
 
-#logodiv {
-  position: fixed;
-  width: 99vw;
-  height: 95vh;
-  z-index: 0;
-}
-
-.glitch {
-  position: fixed;
-  width: 400px;
-  height: auto;
-  left: 39%;
-  margin-top: 270px;
-  filter: brightness(40%);
-  opacity: 0;
-  animation-name: fadeInOpacity;
-  animation-delay: 3.7s;
-  -webkit-animation-delay: 3.7s;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-
 .content {
   opacity: 0;
   animation-name: fadeInOpacity;
-  animation-delay: 5s;
-  -webkit-animation-delay: 5s;
+  animation-delay: 3.8s;
+  -webkit-animation-delay: 3.8s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 2s;
@@ -57,7 +33,7 @@
   -webkit-animation-delay: 2.8s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 0.5s;
+  animation-duration: 0.7s;
   animation-fill-mode: forwards;
 }
 
@@ -76,11 +52,11 @@
   border: 0;
   opacity: 0;
   animation-name: fadeInOpacity;
-  animation-delay: 3s;
-  -webkit-animation-delay: 3s;
+  animation-delay: 3.1s;
+  -webkit-animation-delay: 3.1s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 0.5s;
+  animation-duration: 0.7s;
   animation-fill-mode: forwards;
 }
 
@@ -100,11 +76,11 @@
   border: 0;
   opacity: 0;
   animation-name: fadeInOpacity;
-  animation-delay: 3.2s;
-  -webkit-animation-delay: 3.2s;
+  animation-delay: 3.4s;
+  -webkit-animation-delay: 3.4s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 0.5s;
+  animation-duration: 0.7s;
   animation-fill-mode: forwards;
 }
 
@@ -145,6 +121,15 @@ img.bg {
 }
 
 @keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInOpacity {
   0% {
     opacity: 0;
   }
@@ -224,12 +209,20 @@ img.bg {
   font-size: 1.8em;
 }
 
-img:hover,
-.dropbtn1:hover {
+.social img:hover,
+.social1 img:hover,
+.dropbtn1:hover,
+.dropdown-content a:hover,
+.footer-links a:hover {
   color: #b5a691;
   text-decoration: none;
   transition: opacity 0.3s ease;
   opacity: 0.3;
+}
+
+.portfolio:hover {
+  color: rgb(78, 76, 76);
+  transition: 0.5s ease;
 }
 
 .news {
@@ -411,6 +404,9 @@ img:hover,
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
+  background-image: url('./img/insta1.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .insta2 {
@@ -421,7 +417,7 @@ img:hover,
   width: 100%;
   height: 100%;
   background-image: url('./img/insta2.jpeg');
-  background-size: 280px auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -432,6 +428,9 @@ img:hover,
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
+  background-image: url('./img/insta3.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .insta4 {
@@ -441,6 +440,9 @@ img:hover,
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
+  background-image: url('./img/insta4.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .insta5 {
@@ -450,6 +452,9 @@ img:hover,
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
+  background-image: url('./img/insta5.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .insta6 {
@@ -459,6 +464,9 @@ img:hover,
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
+  background-image: url('./img/insta6.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .insta7 {
@@ -468,6 +476,9 @@ img:hover,
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
+  background-image: url('./img/insta7.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .insta8 {
@@ -477,6 +488,9 @@ img:hover,
   background-color: rgba(0, 0, 0, 0.55);
   width: 100%;
   height: 100%;
+  background-image: url('./img/insta8.jpeg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -507,7 +521,7 @@ img:hover,
 .footer {
   position: relative;
   margin: 200px 0 0 -5px;
-  width: 99vw;
+  width: 98vw;
   height: 30vh;
   background: linear-gradient(to top, black, 80%, rgba(255, 0, 0, 0));
   color: #cbb79c;
@@ -541,16 +555,254 @@ img:hover,
 
 .portfolio {
   position: relative;
-  left: 47.3%;
+  left: 47%;
   font-weight: 400;
   font-size: 0.9em;
   color: #1d1d1c;
   text-decoration: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1500px) {
+  .dropdown {
+    margin-top: 50px;
+  }
+  .instatiles {
+    margin-left: 250px;
+  }
+}
+
+/* @media screen and (max-width: 1024px) {
   img.bg {
     left: 50%;
     margin-left: -512px;
+  }
+} */
+
+@media screen and (max-width: 1200px) {
+  .videoplayer iframe {
+    width: 666px;
+    height: 430px;
+  }
+  .instatiles {
+    margin-left: 190px;
+  }
+  .footer-links a {
+    left: 30px;
+    padding: 10px;
+  }
+  .social1 {
+    left: 36px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .videoplayer {
+    top: 250px;
+  }
+  .videoplayer iframe {
+    width: 566px;
+    height: 330px;
+  }
+  .social {
+    margin-left: 100px;
+  }
+  .instatiles {
+    margin-left: 80px;
+    width: 85vw;
+  }
+  .portfolio {
+    left: 44%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .dropdown {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .videoplayer iframe {
+    width: 466px;
+    height: 280px;
+  }
+  .social {
+    margin-left: 60px;
+  }
+  .instatiles {
+    margin-left: 40px;
+    width: 85vw;
+    height: 50vh;
+  }
+  .videoplayer h1 {
+    font-size: 1.6em;
+  }
+  .button {
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gigs-row {
+    width: 50vw;
+  }
+  .newstiles {
+    width: 60vw;
+  }
+  .dropdown {
+    margin-left: 40px;
+    font-size: 0.8em;
+  }
+  .footer {
+    height: 40vh;
+  }
+  .footer h2 {
+    margin-top: 140px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .instatiles {
+    height: 40vh;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .dropdown-content a {
+    padding: 1px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .social {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gigs-row,
+  .live {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .instatiles {
+    height: 30vh;
+  }
+  .newstiles {
+    height: 60vh;
+    font-size: 0.9em;
+  }
+  .news {
+    font-size: 0.9em;
+  }
+  .videoplayer iframe {
+    width: 366px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .social {
+    margin-left: 0px;
+  }
+  .fb,
+  .insta,
+  .yt {
+    height: 30px;
+  }
+  .title {
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gigs-row {
+    width: 55vw;
+  }
+  .news h1,
+  .live h1,
+  .instagram h1 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 406px) {
+  .fb,
+  .insta,
+  .yt {
+    padding-right: 2px;
+  }
+  .portfolio {
+    left: 35%;
+  }
+  .footer h2 {
+    font-size: 1.4em;
+  }
+  .footer-links {
+    font-size: 0.9em;
+  }
+  .videoplayer iframe {
+    width: 295px;
+    height: 166px;
+  }
+  .videoplayer h1 {
+    font-size: 1.2em;
+  }
+  .news h1 {
+    position: relative;
+    margin-top: 0px;
+    left: 135px;
+  }
+  .newstiles {
+    position: relative;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    left: -56px;
+    width: 80vw;
+    height: 40vh;
+    top: 240px;
+  }
+  .live h1 {
+    position: relative;
+    top: -290px;
+    left: 135px;
+  }
+  .gigs-row {
+    position: relative;
+    top: -160px;
+    width: 70vw;
+    left: -27px;
+  }
+  .instatiles {
+    margin-left: 20px;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+  }
+  .button {
+    left: 37%;
+    font-size: 0.5rem;
+    padding: 5px 20px 2px;
+  }
+  .dropdown {
+    margin-top: 31px;
+  }
+  .instagram h1 {
+    position: relative;
+    top: -60px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .videoplayer iframe {
+    width: 274px;
+    height: 154px;
+  }
+  .videoplayer h1 {
+    font-size: 1em;
   }
 }

@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <img className="bg" />
+        <img className="bg" alt="" />
         <Logo />
         <div className="content">
           <Header />
