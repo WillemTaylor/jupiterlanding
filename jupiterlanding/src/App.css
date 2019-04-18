@@ -61,8 +61,7 @@
 }
 
 .background-depth3 {
-  background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=2f382300&noise=626262&density=21&opacity=100'),
-    #080806;
+  background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=2f382300&noise=626262&density=21&opacity=100');
   background-image: url('http://api.thumbr.it/whitenoise-361x370.png?background=2f382300&noise=626262&density=21&opacity=100'),
     #080806;
   position: fixed;
@@ -117,6 +116,9 @@ img.bg {
   z-index: 3;
   top: 0;
   left: 0;
+  background: -moz-linear-gradient(black, rgba(255, 0, 0, 0));
+  background: -ms-linear-gradient(black, rgba(255, 0, 0, 0));
+  background: -webkit-linear-gradient(black, rgba(255, 0, 0, 0));
   background: linear-gradient(black, rgba(255, 0, 0, 0));
 }
 
@@ -746,6 +748,9 @@ img.bg {
   .footer-links {
     font-size: 0.9em;
   }
+  .videoplayer {
+    top: 300px;
+  }
   .videoplayer iframe {
     width: 295px;
     height: 166px;
@@ -755,7 +760,7 @@ img.bg {
   }
   .news h1 {
     position: relative;
-    margin-top: 0px;
+    margin-top: 120px;
     left: 135px;
   }
   .newstiles {
@@ -765,20 +770,21 @@ img.bg {
     left: -56px;
     width: 80vw;
     height: 40vh;
-    top: 240px;
+    top: 320px;
   }
   .live h1 {
     position: relative;
-    top: -290px;
+    top: -220px;
     left: 135px;
   }
   .gigs-row {
     position: relative;
-    top: -160px;
+    top: -100px;
     width: 70vw;
     left: -27px;
   }
   .instatiles {
+    top: 50px;
     margin-left: 20px;
     grid-column-gap: 0.5em;
     grid-row-gap: 0.5em;
@@ -787,13 +793,6 @@ img.bg {
     left: 37%;
     font-size: 0.5rem;
     padding: 5px 20px 2px;
-  }
-  .dropdown {
-    margin-top: 31px;
-  }
-  .instagram h1 {
-    position: relative;
-    top: -60px;
   }
 }
 
