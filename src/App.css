@@ -731,6 +731,10 @@ img.bg {
 }
 
 @media screen and (max-width: 406px) {
+  .dropdown-content a {
+    padding: 0.3px;
+    margin-top: 25px;
+  }
   .fb,
   .insta,
   .yt {
