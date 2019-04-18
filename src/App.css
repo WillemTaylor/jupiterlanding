@@ -753,6 +753,9 @@ img.bg {
   .footer-links {
     font-size: 0.9em;
   }
+  .videoplayer {
+    top: 35vh;
+  }
   .videoplayer iframe {
     width: 295px;
     height: 166px;
@@ -771,7 +774,7 @@ img.bg {
     left: -56px;
     width: 80vw;
     height: 40vh;
-    top: 140px;
+    top: 20vh;
   }
   .live h1 {
     position: relative;
@@ -796,7 +799,7 @@ img.bg {
     padding: 5px 20px 2px;
   }
   .dropdown {
-    margin-top: 50px;
+    margin-top: 43px;
   }
 }
 
