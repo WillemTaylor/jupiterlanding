@@ -762,6 +762,7 @@ img.bg {
   }
   .videoplayer h1 {
     font-size: 1.2em;
+    color: blue;
   }
   .news {
     top: 72vh;
