@@ -573,13 +573,6 @@ img.bg {
   }
 }
 
-/* @media screen and (max-width: 1024px) {
-  img.bg {
-    left: 50%;
-    margin-left: -512px;
-  }
-} */
-
 @media screen and (max-width: 1200px) {
   .videoplayer iframe {
     width: 666px;
@@ -793,6 +786,9 @@ img.bg {
     left: 37%;
     font-size: 0.5rem;
     padding: 5px 20px 2px;
+  }
+  .dropdown {
+    margin-top: 40px;
   }
 }
 
