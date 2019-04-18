@@ -113,6 +113,7 @@ img.bg {
   grid-template-areas: 'dropdown title socials';
   justify-items: center;
   align-items: center;
+  justify-items: center;
   z-index: 3;
   top: 0;
   left: 0;
@@ -143,7 +144,8 @@ img.bg {
 .dropdown {
   position: fixed;
   grid-area: dropdown;
-  margin: 62px 0 0 110px;
+  margin-top: 7.5vh;
+  margin-left: 110px;
 }
 
 .dropbtn {
@@ -167,7 +169,6 @@ img.bg {
 
 .title {
   grid-area: title;
-  margin-top: -35px;
   font-weight: 400;
   height: 65px;
   width: auto;
@@ -176,7 +177,6 @@ img.bg {
 
 .social {
   grid-area: socials;
-  margin-top: -30px;
   margin-left: 190px;
 }
 
@@ -568,9 +568,6 @@ img.bg {
 }
 
 @media screen and (max-width: 1500px) {
-  .dropdown {
-    margin-top: 100px;
-  }
   .instatiles {
     margin-left: 250px;
   }
@@ -620,7 +617,6 @@ img.bg {
 @media screen and (max-width: 900px) {
   .dropdown {
     margin-left: 50px;
-    margin-top: 70px;
   }
 }
 
@@ -676,7 +672,6 @@ img.bg {
 @media screen and (max-width: 650px) {
   .dropdown-content a {
     padding: 1px;
-    margin-top: 25px;
   }
 }
 
@@ -732,9 +727,6 @@ img.bg {
   .live h1,
   .instagram h1 {
     font-size: 1.2em;
-  }
-  .dropdown {
-    margin-top: 40px;
   }
 }
 
@@ -808,9 +800,6 @@ img.bg {
     left: 37%;
     font-size: 0.5rem;
     padding: 5px 20px 2px;
-  }
-  .dropdown {
-    margin-top: 43px;
   }
   .footer {
     top: 40vh;
