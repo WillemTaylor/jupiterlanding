@@ -762,7 +762,6 @@ img.bg {
   }
   .videoplayer h1 {
     font-size: 1.2em;
-    color: blue;
   }
   .news {
     top: 72vh;
@@ -770,7 +769,7 @@ img.bg {
   }
   .news h1 {
     position: relative;
-    top: -69vh;
+    top: -65vh;
     left: 135px;
   }
   .newstiles {
@@ -782,7 +781,7 @@ img.bg {
     top: -35vh;
   }
   .live {
-    top: 38vh;
+    top: 50vh;
     height: 100vh;
   }
   .live h1 {
