@@ -763,9 +763,13 @@ img.bg {
   .videoplayer h1 {
     font-size: 1.2em;
   }
+  .news {
+    top: 72vh;
+    height: 100vh;
+  }
   .news h1 {
     position: relative;
-    margin-top: 100px;
+    top: -69vh;
     left: 135px;
   }
   .newstiles {
@@ -774,17 +778,25 @@ img.bg {
     left: -56px;
     width: 80vw;
     height: 40vh;
-    top: 20vh;
+    top: -35vh;
+  }
+  .live {
+    top: 38vh;
+    height: 100vh;
   }
   .live h1 {
     position: relative;
-    top: -30vh;
-    left: 135px;
+    top: -25vh;
+    left: 140px;
   }
   .gigs-row {
-    top: -12vh;
+    top: -8vh;
     width: 70vw;
     left: -27px;
+  }
+  .instagram {
+    position: relative;
+    top: 50vh;
   }
   .instatiles {
     top: 50px;
@@ -799,6 +811,9 @@ img.bg {
   }
   .dropdown {
     margin-top: 43px;
+  }
+  .footer {
+    top: 40vh;
   }
 }
 
