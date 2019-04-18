@@ -778,12 +778,11 @@ img.bg {
   }
   .live h1 {
     position: relative;
-    top: -220px;
+    top: -30vh;
     left: 135px;
   }
   .gigs-row {
-    position: relative;
-    top: -100px;
+    top: -12vh;
     width: 70vw;
     left: -27px;
   }
