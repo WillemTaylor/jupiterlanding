@@ -46,7 +46,7 @@ export default class Header extends Component {
             <img className="insta" src={insta} alt="" />
           </a>
           <a
-            href="https://www.facebook.com/wearejupiterlanding/"
+            href="https://www.youtube.com/watch?v=YEuxoYxbSsc"
             target="_blank"
             rel="noopener noreferrer"
           >

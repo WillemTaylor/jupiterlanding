@@ -6,8 +6,8 @@ export default class Instagram extends Component {
   render() {
     return (
       <>
-        <a name="social" />
         <div className="instagram">
+          <a name="social" />
           <h1>INSTAGRAM</h1>
           <div className="instatiles">
             <a
